@@ -35,13 +35,30 @@ Additionally, the project demonstrates how to:
 
 ---
 
-## 🔐 How I Secured EC2 Access
+📦 Project Structure
+rekognition-app/
+│
+├── app.py                    # Main Flask application
+├── templates/
+│   └── index.html            # Frontend form
+├── static/
+│   └── uploads/              # Uploaded images
+│   └── screenshots/          # Your demo screenshots
+├── requirements.txt          # Python dependencies
+└── README.md                 # This file
 
-- Used **SSH Key Pair** while launching EC2  
-- **Disabled password-based login**
-- Configured EC2 **Security Group** to allow only:  
-  - SSH (Port 22)  
-  - Flask App (Port 5000)
+---
+
+🛡️ EC2 Backup and Secure Access
+
+EC2 Backups Done With:
+
+- Create Image → Generates AMI
+- Create Snapshot → Stores EBS volume state
+
+Secure Access Achieved With:
+- SSH key pair (.pem file)
+- IAM Role with fine-grained Rekognition permissions
 
 ---
 
@@ -106,7 +123,20 @@ pip3 install -r requirements.txt
 * Alloy Wheel
 * Tire
 
-![Sample Output](static/bugatti-output.png) <!-- Optional screenshot, replace with your actual path -->
+## 📸 Sample Output Screenshots
+
+Below are some example screenshots of how the AWS Rekognition results look like in this project:
+
+### 🖼️ Uploaded Image & Detected Labels
+
+#### 🔹 Main Web Page
+![Label Output 01](Label-02.png)
+
+#### 🔹 Example 1
+![Label Output 02](Label-01.png)
+
+#### 🔹 Example 2
+![Label Output 03](Label-03.png)
 
 ---
 
@@ -178,28 +208,4 @@ http://<Your-EC2-Public-IP>:5000
 ```
 
 ---
-
-## 🏁 Project Status: Complete ✅
-
-Includes full EC2 setup, deployment, secure access, and backup strategy!
-
-````
-
----
-
-### 📌 After pasting:
-
-1. **Press `Ctrl + O`**, then `Enter` to save  
-2. **Press `Ctrl + X`** to exit nano
-
----
-
-### 🔁 Then Push to GitHub
-
-```bash
-git add README.md
-git commit -m "Added full project documentation to README"
-git push origin main
-````
-
 That's for today....!
