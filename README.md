@@ -173,8 +173,7 @@ http://<Your-EC2-Public-IP>:5000
 ## 👩‍💻 Author
 
 **Nivetha Velmurugan**
-📧 [nivethavelmurugan27@gmail.com](mailto:nivethavelmurugan27@gmail.com)
-🔗 [GitHub - zehra-stark](https://github.com/zehra-stark)
+🔗 [GitHub - zehra-stark]
 
 ---
 
