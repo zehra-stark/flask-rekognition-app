@@ -113,16 +113,16 @@ pip3 install -r requirements.txt
 
 Below are some example screenshots of how the AWS Rekognition results look like in this project:
 
-### 🌐 Uploaded Image & Detected Labels
+### 🖼️ Uploaded Image & Detected Labels
 
 #### 🔹 Main Web Page
-<img src="Label-02.png" alt="Main Web Page" width="600"/>
+<img src="static/uploads/Label-02.png" alt="Main Web Page" width="600"/>
 
 #### 🔹 Example 1
-<img src="Label-01.png" alt="Example 1" width="600"/>
+<img src="static/uploads/Label-01.png" alt="Example 1" width="600"/>
 
 #### 🔹 Example 2
-<img src="Label-03.png" alt="Example 2" width="600"/>
+<img src="static/uploads/Label-03.png" alt="Example 2" width="600"/>
 
 ---
 
