@@ -35,28 +35,14 @@ Additionally, the project demonstrates how to:
 
 ---
 
-📦 Project Structure
-rekognition-app/
-│
-├── app.py                    # Main Flask application
-├── templates/
-│   └── index.html            # Frontend form
-├── static/
-│   └── uploads/              # Uploaded images
-│   └── screenshots/          # Your demo screenshots
-├── requirements.txt          # Python dependencies
-└── README.md                 # This file
+## 🛡️ EC2 Backup and Secure Access
 
----
-
-🛡️ EC2 Backup and Secure Access
-
-EC2 Backups Done With:
+### EC2 Backups Done With:
 
 - Create Image → Generates AMI
 - Create Snapshot → Stores EBS volume state
 
-Secure Access Achieved With:
+### Secure Access Achieved With:
 - SSH key pair (.pem file)
 - IAM Role with fine-grained Rekognition permissions
 
@@ -127,16 +113,16 @@ pip3 install -r requirements.txt
 
 Below are some example screenshots of how the AWS Rekognition results look like in this project:
 
-### 🖼️ Uploaded Image & Detected Labels
+### 🌐 Uploaded Image & Detected Labels
 
 #### 🔹 Main Web Page
-![Label Output 01](Label-02.png)
+<img src="Label-02.png" alt="Main Web Page" width="600"/>
 
 #### 🔹 Example 1
-![Label Output 02](Label-01.png)
+<img src="Label-01.png" alt="Example 1" width="600"/>
 
 #### 🔹 Example 2
-![Label Output 03](Label-03.png)
+<img src="Label-03.png" alt="Example 2" width="600"/>
 
 ---
 
