@@ -116,13 +116,16 @@ Below are some example screenshots of how the AWS Rekognition results look like 
 ### 🖼️ Uploaded Image & Detected Labels
 
 #### 🔹 Main Web Page
-<img src="static/uploads/Label-02.png" alt="Main Web Page" width="600"/>
+<img src="static/uploads/Label-1.png" alt="Main Web Page" width="600"/>
 
 #### 🔹 Example 1
-<img src="static/uploads/Label-01.png" alt="Example 1" width="600"/>
+<img src="static/uploads/Label-02.png" alt="Example 1" width="600"/>
 
 #### 🔹 Example 2
 <img src="static/uploads/Label-03.png" alt="Example 2" width="600"/>
+
+#### 🔹 Example 3
+<img src="static/uploads/Label-04.png" alt="Example 3" width="600"/>
 
 ---
 
