@@ -79,10 +79,10 @@ Install these using pip:
 pip3 install flask boto3
 ````
 
-Or use the requirements.txt:
+Upgrade pip:
 
 ```bash
-pip3 install -r requirements.txt
+python3 -m pip install --upgrade pip
 ```
 
 ---
