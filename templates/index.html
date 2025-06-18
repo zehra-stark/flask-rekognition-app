@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head><title>Upload Image</title></head>
+<head>
+    <title>Image Label Detection</title>
+</head>
 <body>
-  <h1>Upload a Car Image</h1>
-  <form action="/upload" method="post" enctype="multipart/form-data">
-    <input type="file" name="image" required>
-    <input type="submit" value="Upload">
-  </form>
+    <h2>Upload an Image for AWS Rekognition</h2>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <br><br>
+        <input type="submit" value="Analyze Image">
+    </form>
 </body>
 </html>
-
